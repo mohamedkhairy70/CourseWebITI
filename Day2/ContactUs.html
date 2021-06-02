@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Information Of Me</title>
+</head>
+
+<body style="background-image: url('img/back.jpg');margin: 0 auto;padding: 0 ;">
+    <div style="margin: 5px;padding: 5px;">
+        <div style="background-image: url('img/cEz3G.jpg');height: 400px;background-repeat:round;">
+            <h1 style="text-align: center;padding-top: 200px;">Mohamed Khairy</h1>
+        </div>
+        <div style="text-align: center;
+                background-color: aqua;
+                margin-top: 5px;
+                height: 40px;
+                font-size: 30px;
+                ">
+            <a href="Day2-ITI.html" target="_blank">Home</a> &nbsp;
+            <a href="About.html" target="_blank">Contact Us</a> &nbsp;
+            <a href="ContactUs.html" target="_blank">Sign In</a>
+
+
+        </div>
+    </div>
+    <div style="margin: 5px auto;padding: 5px; width: 500px;">
+        <form style="border: 1px solid black; margin: 5px;padding: 5px;" action="About.html" method="GET">
+            <label for="uId">User ID :</label><br>
+            <input type="text" id="uId" name="uId" hidden><br><br>
+            <label for="Ufname">First name :</label><br>
+            <input type="text" id="Ufname" name="Ufname" required><br><br>
+            <label for="Ulname">Last Name:</label><br>
+            <input type="text" id="Ulname" name="Ulname" required><br><br>
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" name="Email" required><br><br>
+
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" name="pass" required><br><br>
+            <label for="rpass">Repeat Password:</label><br>
+            <input type="password" id="rpass" name="rpass" required><br><br>
+
+            <label for="Date">Birth Date :</label><br>
+            <input type="datetime-local" id="Date" name="Date" required><br><br>
+
+            <label for="pic">User Picture :</label><br>
+            <input type="file" id="pic" name="pic" required><br><br>
+
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Interests </legend>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label>
+
+            </fieldset>
+            <br>
+            <label for="Facul">Faculty:</label>
+
+            <select name="Faculty" id="Faculty">
+                <option value="HIC">HIC</option>
+                <option value="Engineering">Engineering</option>
+                <option value="DIC">DIC</option>
+            </select>
+            <br>
+            <label for="About">About you :</label>
+            <br>
+            <textarea></textarea>
+            <br><br>
+
+            <input type="submit" id="btn" name="btn" style="background-image: url('img/back.jpg');"><br><br>
+        </form>
+    </div>
+</body>
+
+</html>
