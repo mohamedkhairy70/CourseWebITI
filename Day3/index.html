@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS magic</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			}
+		ul li a{
+			color: pink;
+			background-color: red ;
+		}
+		#linksbar input:hover{
+			background-color: aquamarine;
+		}
+		#content h2{
+			font-weight: bold;
+			font-size: 20px;
+		}
+		#loginform{
+			border: 2px rgb(20,70,60) dashed;
+		}
+		input[type="text"]:focus{
+			background-color: white ;
+		}
+		#titles p{
+			padding: 10px;
+			margin-left: 10px;
+			border: 1px black solid;
+			float: left;
+			background-color: red;
+		}
+		#aboutus{
+			margin-left: 10px;
+			color: red;
+		}
+		#Nav ul{
+			background-color: aliceblue;
+			list-style-type: none;
+
+		}
+		#Nav ul li{
+			float: left;
+			padding: 10px;
+			border: 1px black solid;
+			margin-left: 20px;
+			background-color: aliceblue;
+		}
+		#Nav ul li a {
+			background-color: aliceblue;
+			color: black;
+		}
+		#abslout a {
+			padding: 10px;
+			color: black;
+			background-color: brown;
+			border: 1px black solid;
+			border-radius: 2px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div Id="Nav">
+		<ul>
+			<li><a href="#linksbar">link1</a></li>
+			<li><a href="#linksbar">link2</a></li>
+			<li><a href="#linksbar">link3</a></li>
+			<li><a href="#linksbar">link4</a></li>
+			<li><a href="#linksbar">link5</a></li>
+		</ul>
+	</div>
+	<div id="header" >
+		<h1>This is the page header</h1>
+	</div>
+	<span id="linksbar">
+		<div id="loginform" >
+			User name: <input type="text"/>
+			</br>
+			Password: <input type="password"/>
+			<br/>
+			<input type="checkbox" /> remember me
+			<br/>
+			<button>login</button>
+		</div>
+		<h2> site menu</h2>
+		<ul>
+			<li><a href="#linksbar">link1</a></li>
+			<li><a href="#linksbar">link2</a></li>
+			<li><a href="#linksbar">link3</a></li>
+			<li><a href="#linksbar">link4</a></li>
+			<li><a href="#linksbar">link5</a></li>
+		</ul>
+	</span>
+	<span id="content">
+		<h2> about us</h2>
+		<p id="aboutus">
+			This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph This is a paragraph.
+		</p>
+		
+		<div id="titles">
+			<a href="#linksbar"><p> title1</p></a>
+			<a href="#linksbar"><p> title2</p></a>
+			<a href="#linksbar"><p> title3</p></a>
+		</div>
+	</span>
+	<div id="abslout"><a href="#">^</a></div>
+</body>
+</html>

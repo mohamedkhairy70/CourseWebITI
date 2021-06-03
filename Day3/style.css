@@ -1,0 +1,26 @@
+body{
+    
+    background-color: aqua;
+}
+p,div{
+    font-family: 'Lucida Calligraphy';
+}
+div>h1 {
+    text-align: center;
+}
+#header{
+    height: 100%;
+    background-color: red;
+    padding: 0;
+    margin: 0 auto;
+}
+#linksbar{
+    width: 25%;
+    background-color: gray;
+    float: left;
+}
+#content{
+    width: 75%;
+    background-color: pink;
+    float: left;
+}
